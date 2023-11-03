@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding:0;
+    min-height: 160vh;
+    overflow-x: hidden;
+    overflow:hidden;
+}
+
+.bannerimg{
+    height: 99%;
+    border-radius:40px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1%;
+    border: 10px solid #391b70;
+    border-width: 5px;
+    overflow:visible;
+    
+    
+    z-index: 1;
+}
+.title{
+    top: 3%;
+    z-index: 3;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    color:#ece4ff;
+    text-shadow: 4px 0 #391b70, 0 2px #391b70, 2px 0 #391b70, 0 3px #391b70;
+    font-size: 40px;
+font-family: monospace;}
+.banner{
+    height: 28vh;
+
+     position: relative;
+    display: block;
+    z-index: 1;
+    width: 100%;
+
+}
+
+
+.line{
+    visibility: visible;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: 0;
+    box-shadow: 20px 20px 30px 30px #391b70;
+    position: absolute;
+    z-index: 2;
+    margin-top: 25vh;
+    align-items: center;
+}
+.about{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imagelist{
+    
+}
+.listimage{
+    width: 15vh;
+    border-radius: 45%;
+    transition-duration: 500ms;
+
+}
+.listimage:hover{
+    border-radius: 10%;
+}
+.links{
+    margin: auto;
+    align-items: center;
+}
+.linkimage{
+    width: 5vh;
+
+    border-radius: 50%;
+    transition-duration: 500ms;
+
+}
+.linkimage:hover{
+    cursor: pointer;
+    border-radius: 10%;
+    
+
+}
